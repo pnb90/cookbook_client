@@ -1,0 +1,32 @@
+<!-- <form action="/client/recipes" method="post">
+ -->  
+<%= form_tag "/client/recipes", method: :post do %>
+  <div>
+    Title: <%= form_tag "/client/recipes", method: :post do %>
+<input type="text" name="title">
+  </div>
+
+  <div>
+    Chef: <input type="text" name="chef">
+  </div>
+
+  <div>
+    Prep Time: <input type="text" name="prep_time">
+  </div>
+
+   <div>
+    Ingredients: <input type="text" name="ingredients">
+  </div>
+
+   <div>
+    Directions: <input type="text" name="directions">
+  </div>
+
+   <div>
+    Image URL: <input type="text" name="image_url">
+  </div>
+
+  <input type="submit" name="Create Recipe">
+<!-- </form> -->
+<% end %> 
+
